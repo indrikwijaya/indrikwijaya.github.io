@@ -11,13 +11,11 @@
 In this project, I evaluated different clustering algorithms to draw meaningful patterns from short time-series genomics data. Popular algorithms such as K-Means, as well as specially-developed algorithm for short time-series such as [STEM](https://link.springer.com/article/10.1186/1471-2105-7-191) are analyzed. 
 
 ---
-### Detect Non-negative Airline Tweets: BERT for Sentiment Analysis
+### Credit Fraud Prediction
 
-[![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1f32gj5IYIyFipoINiC8P3DvKat-WWLUK)
+[![Final Presentation Poster](https://img.shields.io/badge/PDF-Open_Research_Poster-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/credit_fraud_prediction.pdf)
 
-<div style="text-align: justify">The release of Google's BERT is described as the beginning of a new era in NLP. In this notebook I'll use the HuggingFace's transformers library to fine-tune pretrained BERT model for a classification task. Then I will compare BERT's performance with a baseline model, in which I use a TF-IDF vectorizer and a Naive Bayes classifier. The transformers library helps us quickly and efficiently fine-tune the state-of-the-art BERT model and yield an accuracy rate 10% higher than the baseline model.</div>
-
-<center><img src="images/BERT-classification.png"/></center>
+In this class project, my group studied various machine learning algorithms to predict classical problem in machine learning, credit fraud. Surprisingly, decision tree classifiers that typically have higher tendency to overfit the data seem to perform better against robust ensemble methods like Random Forest or AdaBoost. We hypothesized that this happens due to the bias in the datasets. Here, we proposed some suggestions to overcome this bias.
 
 ---
 ### Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI
