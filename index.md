@@ -1,23 +1,60 @@
 # Portfolio
 ---
-## Clustering
 
-### Honours Year Project
+## Life Science 
+### Time-series Clustering Analysis
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/indrikwijaya/FYP-ML-For-Genomics)
 [![Final Presentation Poster](https://img.shields.io/badge/PDF-Open_Research_Poster-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/final_presentation.pdf)
 [![Full Thesis](https://img.shields.io/badge/PDF-Open_Research_Poster-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/IndrikWijaya_FYP_final.pdf)
 
-In this project, I evaluated different clustering algorithms to draw meaningful patterns from short time-series genomics data. Popular algorithms such as K-Means, as well as specially-developed algorithm for short time-series such as [STEM](https://link.springer.com/article/10.1186/1471-2105-7-191) are analyzed. 
+<div style="text-align: justify"> In this project, I evaluated different clustering algorithms to draw meaningful patterns from short time-series genomics data. Popular algorithms such as K-Means, as well as specially-developed algorithm for short time-series such as [STEM](https://link.springer.com/article/10.1186/1471-2105-7-191) are analyzed. I observed that classical clustering algorithms still performed well for various distance measure except for euclidean distance. In addition, STEM excludes many relevant genes. Thus, this study concludes that we can use STEM to get optimal number of clusters and then use any of the classical clustering algorithms to cluster our time-series data.</div>
 
 ---
+
+### Supervised Learning for Popular Biological Data
+[![View in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1XPgzCcsGid994SZcoZtuiYEnLidgngqo?usp=sharing)
+<div style="text-align: justify">This exploratory project aims to investigate how Supervised ML can be applied into various biological problems. Both Classification and Regression tasks are explored here. There are 3 mini tasks for this project: </div>
+1) Classification of Breast Cancer Data
+2) Regression Diabetest Patient Data
+3) Cancer Classification based on Gene Expression
+
+---
+
+### Autoencoder for Integration of Multi-omics Data
+---
+
+### Graph Convolutional Network for Protein Interaction
+---
+
+## Drug Discovery
+---
+
+### Deep Neural Network for Drug's Mechanism of Action (MOA) Prediction 
+---
+
+### Supervised Learning to Predict Drug's Attributes from Published Perturbation Studies and Small Molecule Features
+[![View in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://drive.google.com/file/d/1E9ZkeH_UAOVz03DqvbDYN17zsBpd9ry4/view?usp=sharing)
+<div style="text-align: justify">I explored various published datasets in order to discover effective drug(s) or small molecule(s) for autophagy inducer, particularly through TFEB activation. </div>
+---
+
+### Supervised Regression models of Acetylcholinesterase Inhibitors
+[![View in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1BqrzHc5YYT2NSVdtyPd0i4disLLSBqEI?usp=sharing)
+[![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/detect-food-trends-facebook.html)
+
+<div style="text-align: justify"> This project adapted from [Data Professor's Data Science Project](https://github.com/dataprofessor/bioinformatics_freecodecamp) where multiple regression models are evaluated to predict the activity of different acetylcholinesterase inhibitors. Data is obtained from [ChEMBL Database](https://www.ebi.ac.uk/chembl/) which contains curated bioactivity data of > 2 million compounds. ChEMBL is a commonly used resource for drug discovery projects. </div>
+
+---
+## Miscellanous
+
 ### Credit Fraud Prediction
 
 [![Final Presentation Poster](https://img.shields.io/badge/PDF-Open_Research_Poster-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/credit_fraud_prediction.pdf)
 
-In this class project, my group studied various machine learning algorithms to predict classical problem in machine learning, credit fraud. Surprisingly, decision tree classifiers that typically have higher tendency to overfit the data seem to perform better against robust ensemble methods like Random Forest or AdaBoost. We hypothesized that this happens due to the bias in the datasets. Here, we proposed some suggestions to overcome this bias.
-
+<div style="text-align: justify"> In this class project, my group studied various machine learning algorithms to predict classical problem in machine learning, credit fraud. Surprisingly, decision tree classifiers that typically have higher tendency to overfit the data seem to perform better against robust ensemble methods like Random Forest or AdaBoost. We hypothesized that this happens due to the bias in the datasets. Here, we proposed some suggestions to overcome this bias, particularly on dealing with imbalance data.</div>
 ---
+
+
 ### Detect Food Trends from Facebook Posts: Co-occurence Matrix, Lift and PPMI
 
 [![Open Notebook](https://img.shields.io/badge/Jupyter-Open_Notebook-blue?logo=Jupyter)](projects/detect-food-trends-facebook.html)
