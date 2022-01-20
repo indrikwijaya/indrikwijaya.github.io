@@ -26,6 +26,7 @@
 ---
 
 ### Spatio-temporal Analysis of Translational Regulation in Brown Fat Differentiation
+
 Following up on my thesis above, we would like to discover any further temporal and spatial patterns of variation in our data. Specifically, we want to understand how genes are translationally regulated differently at the bulk level, cytosolic level and crude mitochondria level. Here, we use [MEFISTO](https://www.nature.com/articles/s41592-021-01343-9) (developed based on [MOFA](https://biofam.github.io/MOFA2/)) which is a factor analysis model that has effectively and widely used for multi-modal genomics data sets in an unsupervised manner. 
 ---
 
