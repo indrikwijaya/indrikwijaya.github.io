@@ -5,8 +5,8 @@
 ### Time-series Clustering Analysis
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/indrikwijaya/FYP-ML-For-Genomics)
-[![Final Presentation Poster](https://img.shields.io/badge/PDF-Open_Research_Poster-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/final_presentation.pdf)
-[![Full Thesis](https://img.shields.io/badge/PDF-Open_Research_Poster-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/IndrikWijaya_FYP_final.pdf)
+[![Final Presentation Poster](https://img.shields.io/badge/PDF-Slides-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/final_presentation.pdf)
+[![Full Thesis](https://img.shields.io/badge/PDF-Thesis-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/IndrikWijaya_FYP_final.pdf)
 
 <div style="text-align: justify"> 
   In this project, I evaluated different clustering algorithms to draw meaningful patterns from short time-series genomics data. Popular algorithms such as K-Means, as well as specially-developed algorithm for short time-series such as [STEM](https://link.springer.com/article/10.1186/1471-2105-7-191) are analyzed. I observed that classical clustering algorithms still performed well for various distance measure except for euclidean distance. In addition, STEM excludes many relevant genes. Thus, this study concludes that we can use STEM to get optimal number of clusters and then use any of the classical clustering algorithms to cluster our time-series data.
@@ -15,14 +15,14 @@
 ---
 
 ### Autoencoder for Integration of Multi-omics Data
-[![View in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)]
-(https://colab.research.google.com/drive/15vrcuS_L48_YeixSK1Kao0g8qAXKU-wU?usp=sharing)
+[![View in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/15vrcuS_L48_YeixSK1Kao0g8qAXKU-wU?usp=sharing)
 <div style="text-align: justify"> 
   Multi-omics data have recently gained popularity with the advancement of sequencing and -omics technologies. Each -omic data represents an important layer in solving biological problem. By integrating different -omics data, we are able to gain novel information and useful insights that are not present when we only look at individual omic layer. Autoencoder is performed here since it's been successful in finding accurate lower dimensional representation for many studies. </div>
   
 ---
 
 ### Spatio-temporal Analysis of Translational Regulation in Brown Fat Differentiation
+[![View in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1EKaryRgS5QB5KmRDXz5-tGqUeb06sDlH?usp=sharing)
 <div style="text-align: justify"> 
 Following up on my thesis above, we would like to discover any further temporal and spatial patterns of variation in our data. Specifically, we want to understand how genes are translationally regulated differently at the bulk level, cytosolic level and crude mitochondria level. Here, we use [MEFISTO](https://www.nature.com/articles/s41592-021-01343-9) (developed based on [MOFA](https://biofam.github.io/MOFA2/)) which is a factor analysis model that has effectively and widely used for multi-modal genomics data sets in an unsupervised manner. 
   </div>
@@ -35,6 +35,9 @@ Following up on my thesis above, we would like to discover any further temporal 
 ---
 
 ### Predicting Drug's Mechanism of Action (MOA) using TabNet, Deep Neural Network and Convolutional Neural Network
+[![View in Google Colab](https://img.shields.io/badge/Colab-EDA-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1JHhNZ6A2IhmpKOT9aP9nG4awSoXBTg9X?usp=sharing)
+[![View in Google Colab](https://img.shields.io/badge/Colab-TabNet-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/19eDX0-5XMaP75i1pQdJmGGUthZzoWB71?usp=sharing)
+[![View in Google Colab](https://img.shields.io/badge/Colab-DNN-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1oymZITmSf44InyncGenhJjRCA8tI8Ks5?usp=sharing)
   <div style="text-align: justify"> 
 This [Kaggle's Competition](https://www.kaggle.com/c/lish-moa) coincides nicely with my current Drug Discovery project. Here, I explored various exploratory data analysis (EDA) steps, feature engineering methods and ML algorithms from top performing Kagglers. By finding the optimal model, I hope to discover suitable drugs that can help induce autophagy especially through TFEB transcription factor.
   </div>
@@ -72,13 +75,12 @@ This [Kaggle's Competition](https://www.kaggle.com/c/lish-moa) coincides nicely 
 ---
 ### Credit Fraud Prediction
 
-[![Final Report](https://img.shields.io/badge/PDF-Open_Research_Poster-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/credit_fraud_prediction.pdf)
+[![Final Report](https://img.shields.io/badge/PDF-Final_Report-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/credit_fraud_prediction.pdf)
 
 <div style="text-align: justify"> 
   In this class project, my group studied various machine learning algorithms to predict classical problem in machine learning, credit fraud. Surprisingly, decision tree classifiers that typically have higher tendency to overfit the data seem to perform better against robust ensemble methods like Random Forest or AdaBoost. We hypothesized that this happens due to the bias in the datasets. Here, we proposed some suggestions to overcome this bias, particularly on dealing with imbalance data.
 </div>
 ---
 
-
 ---
-<center>© 2020 Khanh Tran. Powered by Jekyll and the Minimal Theme.</center>
+<center>Powered by Jekyll and the Minimal Theme.</center>
