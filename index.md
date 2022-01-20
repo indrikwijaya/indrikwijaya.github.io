@@ -8,9 +8,7 @@
 [![Final Presentation Poster](https://img.shields.io/badge/PDF-Slides-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/final_presentation.pdf)
 [![Full Thesis](https://img.shields.io/badge/PDF-Thesis-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/IndrikWijaya_FYP_final.pdf)
 
-<div style="text-align: justify"> 
   In this project, I evaluated different clustering algorithms to draw meaningful patterns from short time-series genomics data. Popular algorithms such as K-Means, as well as specially-developed algorithm for short time-series such as [STEM](https://link.springer.com/article/10.1186/1471-2105-7-191) are analyzed. I observed that classical clustering algorithms still performed well for various distance measure except for euclidean distance. In addition, STEM excludes many relevant genes. Thus, this study concludes that we can use STEM to get optimal number of clusters and then use any of the classical clustering algorithms to cluster our time-series data.
-</div>
 
 ---
 
