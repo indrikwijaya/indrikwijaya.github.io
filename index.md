@@ -96,7 +96,7 @@ This [Kaggle's Competition](https://www.kaggle.com/c/lish-moa) coincides nicely 
 
 ### Breaking Down Bias Statistic to Systematic and Unsystematic Risk
 
-[![Final Report](https://img.shields.io/badge/PDF-Final_Report-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/Bias Stats Mini Report.pdf)
+[![Final Report](https://img.shields.io/badge/PDF-Final_Report-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/bias_stats_report.pdf)
   
   For my first internship project, I applied Regression Analysis on a commonly used risk forecast' metric called Bias Statistic. Bias statistic helps to determine the accuracy of risk forecast of a certain portfolio model. This project aims to investigate whether it is possible to break down this metric into known risk components: Systematic Risk and Unsystematic Risk. This will then allow us to determine which component(s) of the portfolio has a higher contribution in causing the model to underpredict or overpredict risk. The analysis shows that it is indeed possible to break down the Bias Statistic into the two distinct risk components.
   
