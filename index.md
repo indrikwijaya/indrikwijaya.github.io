@@ -24,6 +24,7 @@
   In this analysis, I explored 2 multi-omics technologies: [CITEseq](https://www.nature.com/articles/nmeth.4380) and [scNMTseq](https://www.nature.com/articles/s41467-018-03149-4) which provide two and three levels of omics information, respectively. Using Autoencoder, it can be observed that the integration allows us to observe certain clusters identity that would be hard to identify using one type of omics alone.
 
   <center><img src="images/autoencoder.png"/></center>
+
 ---
 
 ### Spatio-temporal Analysis of Translational Regulation in Brown Fat Differentiation
@@ -32,9 +33,11 @@
 Following up on my thesis above, I would like to discover any further temporal and spatial patterns of variation in the data. Specifically, I want to understand how genes are translationally regulated differently at the bulk level, cytosolic level and crude mitochondria level. Here, we use [MEFISTO](https://www.nature.com/articles/s41592-021-01343-9) (developed based on [MOFA](https://biofam.github.io/MOFA2/)) which is a factor analysis model that has been effectively and widely used to model multi-modal genomics datasets in an unsupervised manner. Preliminary analysis shows that the factor analysis is able to point out different spatio-temporal variations that are able to distinguish the regulation at the different cells comparment.
 
   <center><img src="images/mefisto.png"/></center>
+
 ---
 
 ## Computational Drug Discovery
+
 ---
 
 ### Predicting Drug Mechanism of Action (MOA) using TabNet and Deep Neural Network
@@ -80,7 +83,9 @@ This [Kaggle's Competition](https://www.kaggle.com/c/lish-moa) coincides nicely 
 3) Cancer Classification based on Gene Expression
 
   <center><img src="images/diabetes-feature.png"/></center>
+
 ---
+
 ### Credit Fraud Prediction
 
 [![Final Report](https://img.shields.io/badge/PDF-Final_Report-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/credit_fraud_prediction.pdf)
@@ -88,7 +93,9 @@ This [Kaggle's Competition](https://www.kaggle.com/c/lish-moa) coincides nicely 
   In this class project, my group studied various machine learning algorithms applied to the clasical application of machine learning, predicting credit frauds. Surprisingly, decision tree classifiers (which typically have a higher tendency to overfit) seem to perform better against robust ensemble methods such as Random Forest or AdaBoost. We hypothesised that this happens due to the bias present in the datasets. Here, we proposed some suggestions to overcome this bias, particularly on dealing with imbalanced data.
 
 ---
+
 ### Breaking Down Bias Statistic to Systematic and Unsystematic Risk
+
 [![Final Report](https://img.shields.io/badge/PDF-Final_Report-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/Bias Stats Mini Report.pdf)
   
   For my first internship project, I applied Regression Analysis on a commonly used risk forecast' metric called Bias Statistic. Bias statistic helps to determine the accuracy of risk forecast of a certain portfolio model. This project aims to investigate whether it is possible to break down this metric into known risk components: Systematic Risk and Unsystematic Risk. This will then allow us to determine which component(s) of the portfolio has a higher contribution in causing the model to underpredict or overpredict risk. The analysis shows that it is indeed possible to break down the Bias Statistic into the two distinct risk components.
