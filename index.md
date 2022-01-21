@@ -8,21 +8,21 @@
 [![Final Presentation Poster](https://img.shields.io/badge/PDF-Slides-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/final_presentation.pdf)
 [![Full Thesis](https://img.shields.io/badge/PDF-Thesis-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/IndrikWijaya_FYP_final.pdf)
 
-  In this project, I evaluated different clustering algorithms to draw meaningful patterns from short time-series genomics data. Popular algorithms such as K-Means, as well as specially-developed algorithm for short time-series such as [STEM](https://link.springer.com/article/10.1186/1471-2105-7-191) are analyzed. I observed that classical clustering algorithms still performed well for various distance measure except for euclidean distance. In addition, STEM excludes many relevant genes. Thus, this study concludes that we can use STEM to get optimal number of clusters and then use any of the classical clustering algorithms to cluster our time-series data.
+  In this project, I evaluated different clustering algorithms to draw meaningful patterns from short time-series genomics data. Popular algorithms such as K-Means, as well as specially-developed algorithm for short time-series such as [STEM](https://link.springer.com/article/10.1186/1471-2105-7-191) are analyzed. I observed that classical clustering algorithms still performed well for various distance measures except for euclidean distance, while STEM excludes many relevant genes. This study concludes that we can use STEM to get the optimal number of clusters and then use any of the classical clustering algorithms to cluster our time-series data.
 
 ---
 
 ### Autoencoder for Integration of Multi-omics Data
 [![View in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/15vrcuS_L48_YeixSK1Kao0g8qAXKU-wU?usp=sharing)
 
-  Multi-omics data have recently gained popularity with the advancement of sequencing and -omics technologies. Each -omic data represents an important layer in solving biological problem. By integrating different -omics data, we are able to gain novel information and useful insights that are not present when we only look at individual omic layer. Autoencoder is performed here since it's been successful in finding accurate lower dimensional representation for many studies. 
+  Multi-omics data have recently gained popularity with the advancement of sequencing technologies and data acquisition. Each -omic data represents an important layer in solving various biological problems. By integrating different -omics data, we are able to gain novel information and useful insights that may not be seen when each -omic layer is analysed individually. Autoencoder is performed since it has a successful track record in finding accurate lower dimensional representation in many studies. 
   
 ---
 
 ### Spatio-temporal Analysis of Translational Regulation in Brown Fat Differentiation
 [![View in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1EKaryRgS5QB5KmRDXz5-tGqUeb06sDlH?usp=sharing)
 
-Following up on my thesis above, we would like to discover any further temporal and spatial patterns of variation in our data. Specifically, we want to understand how genes are translationally regulated differently at the bulk level, cytosolic level and crude mitochondria level. Here, we use [MEFISTO](https://www.nature.com/articles/s41592-021-01343-9) (developed based on [MOFA](https://biofam.github.io/MOFA2/)) which is a factor analysis model that has effectively and widely used for multi-modal genomics data sets in an unsupervised manner. 
+Following up on my thesis above, we would like to discover any further temporal and spatial patterns of variation in our data. Specifically, we want to understand how genes are translationally regulated differently at the bulk level, cytosolic level and crude mitochondria level. Here, we use [MEFISTO](https://www.nature.com/articles/s41592-021-01343-9) (developed based on [MOFA](https://biofam.github.io/MOFA2/)) which is a factor analysis model that has been effectively and widely used to model multi-modal genomics datasets in an unsupervised manner. 
 
 ---
 
@@ -32,27 +32,26 @@ Following up on my thesis above, we would like to discover any further temporal 
 ## Computational Drug Discovery
 ---
 
-### Predicting Drug's Mechanism of Action (MOA) using TabNet, Deep Neural Network and Convolutional Neural Network
+### Predicting Drug Mechanism of Action (MOA) using TabNet, Deep Neural Network and Convolutional Neural Network
 [![View in Google Colab](https://img.shields.io/badge/Colab-EDA-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1JHhNZ6A2IhmpKOT9aP9nG4awSoXBTg9X?usp=sharing)
 [![View in Google Colab](https://img.shields.io/badge/Colab-TabNet-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/19eDX0-5XMaP75i1pQdJmGGUthZzoWB71?usp=sharing)
 [![View in Google Colab](https://img.shields.io/badge/Colab-DNN-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1oymZITmSf44InyncGenhJjRCA8tI8Ks5?usp=sharing)
 
-This [Kaggle's Competition](https://www.kaggle.com/c/lish-moa) coincides nicely with my current Drug Discovery project. Here, I explored various exploratory data analysis (EDA) steps, feature engineering methods and ML algorithms from top performing Kagglers. By finding the optimal model, I hope to discover suitable drugs that can help induce autophagy especially through TFEB transcription factor.
+This [Kaggle's Competition](https://www.kaggle.com/c/lish-moa) coincides nicely with my current project on Drug Discovery. Here, I investigated various exploratory data analysis steps, while featuring engineering methods and ML algorithms from top performing Kagglers. By finding an optimal model to predict a drug's Mechanism of Action, I hope to discover suitable drugs that act on the Transcription Factor EB (TFEB) to induce autophagy.
 
 ---
 
 ### Predicting Drug's Attributes from Published Perturbation Studies and Small Molecule Features
 [![View in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1E9ZkeH_UAOVz03DqvbDYN17zsBpd9ry4)
 
-  I explored various published datasets in order to discover effective drug(s) or small molecule(s) for autophagy inducer, particularly through TFEB activation. This pipeline is adapted from [Drugmonizome-ML](https://appyters.maayanlab.cloud/Drugmonizome_ML/) which already contains extensive drug and small molecules databases
+  I explored various published datasets in order to discover effective drug(s) or small molecule(s) as autophagy inducers, particularly through TFEB activation. This pipeline is adapted from [Drugmonizome-ML](https://appyters.maayanlab.cloud/Drugmonizome_ML/) which has incorporated extensive databases on drugs and small molecules.
 
 ---
 
 ### Supervised Regression models of Acetylcholinesterase Inhibitors
 [![View in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1BqrzHc5YYT2NSVdtyPd0i4disLLSBqEI?usp=sharing)
 
-  This project is adapted from [Data Professor's Data Science Project](https://github.com/dataprofessor/bioinformatics_freecodecamp) where multiple regression models are evaluated to predict the activity of different acetylcholinesterase inhibitors. Data is obtained from [ChEMBL Database](https://www.ebi.ac.uk/chembl/) which contains curated bioactivity data of > 2 million compounds. ChEMBL is a commonly used resource for drug discovery projects. 
-
+  This project is adapted from [Data Professor's Data Science Project](https://github.com/dataprofessor/bioinformatics_freecodecamp) where multiple regression models are evaluated to predict the activity of different acetylcholinesterase inhibitors. Data is obtained from [ChEMBL Database](https://www.ebi.ac.uk/chembl/) where a sizeable and curated bioactivity database of > 2 million compounds is present.
 
 ---
 ## Miscellanous
@@ -60,7 +59,7 @@ This [Kaggle's Competition](https://www.kaggle.com/c/lish-moa) coincides nicely 
 ### Supervised Learning for Popular Biological Data
 [![View in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1XPgzCcsGid994SZcoZtuiYEnLidgngqo?usp=sharing)
 
-  This exploratory project aims to investigate how Supervised ML can be applied into various biological problems. Both Classification and Regression tasks are explored here. Classical ML algorithms such as KNN, SVM and Random Forest are evaluated for this study. There are 3 mini tasks for this project: 
+  This exploratory project aims to investigate how Supervised ML can be applied to various biological problems. Both Classification and Regression tasks are explored here. Classical ML algorithms such as KNN, SVM and Random Forest are evaluated for this study. There are 3 mini tasks for this project: 
 
 1) Classification of Breast Cancer Data
 
@@ -74,7 +73,7 @@ This [Kaggle's Competition](https://www.kaggle.com/c/lish-moa) coincides nicely 
 
 [![Final Report](https://img.shields.io/badge/PDF-Final_Report-blue?logo=adobe-acrobat-reader&logoColor=white)](pdf/credit_fraud_prediction.pdf)
 
-  In this class project, my group studied various machine learning algorithms to predict classical problem in machine learning, credit fraud. Surprisingly, decision tree classifiers that typically have higher tendency to overfit the data seem to perform better against robust ensemble methods like Random Forest or AdaBoost. We hypothesized that this happens due to the bias in the datasets. Here, we proposed some suggestions to overcome this bias, particularly on dealing with imbalance data.
+  In this class project, my group studied various machine learning algorithms applied to the clasical application of machine learning, predicting credit frauds. Surprisingly, decision tree classifiers (which typically have a higher tendency to overfit) seem to perform better against robust ensemble methods such as Random Forest or AdaBoost. We hypothesised that this happens due to the bias present in the datasets. Here, we proposed some suggestions to overcome this bias, particularly on dealing with imbalanced data.
 
 ---
 
