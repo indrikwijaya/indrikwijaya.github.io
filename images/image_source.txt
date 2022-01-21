@@ -1,0 +1,13 @@
+stem: https://media.springernature.com/full/springer-static/image/art%3A10.1186%2F1471-2105-7-191/MediaObjects/12859_2005_Article_930_Fig3_HTML.jpg
+
+multi-omics: https://science.sciencemag.org/content/358/6359/69.long
+
+autoencoder source: https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html
+
+mefisto: https://biofam.github.io/MOFA2/images/mefisto.png
+
+tabnet: https://miro.medium.com/max/700/1*twB1nZHPN5Cuxu2h_jpEPg.png
+
+drug_moa: https://github.com/oleksandrsirenko/mechanisms-of-action-moa-prediction/blob/master/reports/figures/mao_aim.png
+
+drugmonizome-ml: https://academic.oup.com/view-large/figure/233530121/baab017f5.tif
