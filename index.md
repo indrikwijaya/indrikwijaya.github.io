@@ -54,7 +54,7 @@ Here, we use [MEFISTO](https://www.nature.com/articles/s41592-021-01343-9) (deve
   
 ---
 
-### Predicting Drug Mechanism of Action (MOA) using TabNet and Deep Neural Network
+### Predicting Drug's Mechanism of Action (MOA) using TabNet and Deep Neural Network
 [![View in Google Colab](https://img.shields.io/badge/Colab-EDA-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1JHhNZ6A2IhmpKOT9aP9nG4awSoXBTg9X?usp=sharing)
 [![View in Google Colab](https://img.shields.io/badge/Colab-TabNet-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/19eDX0-5XMaP75i1pQdJmGGUthZzoWB71?usp=sharing)
 [![View in Google Colab](https://img.shields.io/badge/Colab-DNN-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1oymZITmSf44InyncGenhJjRCA8tI8Ks5?usp=sharing)
