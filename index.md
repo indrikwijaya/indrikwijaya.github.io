@@ -17,7 +17,11 @@
 ### Spatio-temporal Analysis of Translational Regulation in Brown Fat Differentiation
 [![View in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1EKaryRgS5QB5KmRDXz5-tGqUeb06sDlH?usp=sharing)
 
-Following up on my thesis above, I would like to discover any further temporal and spatial patterns of variation in the data. Specifically, I want to understand how genes are translationally regulated differently at the bulk level, cytosolic level and crude mitochondria level. Here, we use [MEFISTO](https://www.nature.com/articles/s41592-021-01343-9) (developed based on [MOFA](https://biofam.github.io/MOFA2/)) which is a factor analysis model that has been effectively and widely used to model multi-modal genomics datasets in an unsupervised manner. Preliminary analysis shows that the factor analysis is able to point out different spatio-temporal variations that are able to distinguish the regulation at the different cells comparment.
+Following up on my thesis above, I would like to discover any further temporal and spatial patterns of variation in the data. Specifically, I want to understand how genes are translationally regulated differently at the bulk level, cytosolic level and crude mitochondria level. 
+
+  <center><img src="images/brown_fat.png"/></center>
+  
+Here, we use [MEFISTO](https://www.nature.com/articles/s41592-021-01343-9) (developed based on [MOFA](https://biofam.github.io/MOFA2/)) which is a powerful factor analysis model that has been effectively and widely used to model multi-modal genomics datasets in an unsupervised manner. Preliminary analysis shows that the factor analysis is able to point out different spatio-temporal variations that are able to distinguish the regulation at the different comparment.
 
   <center><img src="images/mefisto.png"/></center>
 
@@ -41,6 +45,15 @@ Following up on my thesis above, I would like to discover any further temporal a
 
 ---
 
+### Predicting Drug's Attributes from Published Perturbation Studies and Small Molecule Features
+[![View in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1E9ZkeH_UAOVz03DqvbDYN17zsBpd9ry4)
+
+  I explored and integrated various published datasets in order to discover effective drug(s) or small molecule(s) as autophagy inducers, particularly through TFEB activation. This pipeline is adapted from [Drugmonizome-ML](https://appyters.maayanlab.cloud/Drugmonizome_ML/) which has incorporated extensive databases on drugs and small molecules. I also streamlined the pipeline and modify it to compare different models easily. With this comprehensive pipeline, I hope to identify a list of drugs and relevant attributes that can be tested further in a much shorter time as compared to manually reading published papers for drug identification.
+  
+  <center><img src="images/drugmonizome-ml.jpg"/></center>
+  
+---
+
 ### Predicting Drug Mechanism of Action (MOA) using TabNet and Deep Neural Network
 [![View in Google Colab](https://img.shields.io/badge/Colab-EDA-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1JHhNZ6A2IhmpKOT9aP9nG4awSoXBTg9X?usp=sharing)
 [![View in Google Colab](https://img.shields.io/badge/Colab-TabNet-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/19eDX0-5XMaP75i1pQdJmGGUthZzoWB71?usp=sharing)
@@ -51,15 +64,6 @@ This [Kaggle's Competition](https://www.kaggle.com/c/lish-moa) coincides nicely 
   <center><img src="images/drug_moa.png"/></center>
   <center><img src="images/tabnet.png"/></center>
 
----
-
-### Predicting Drug's Attributes from Published Perturbation Studies and Small Molecule Features
-[![View in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1E9ZkeH_UAOVz03DqvbDYN17zsBpd9ry4)
-
-  I explored various published datasets in order to discover effective drug(s) or small molecule(s) as autophagy inducers, particularly through TFEB activation. This pipeline is adapted from [Drugmonizome-ML](https://appyters.maayanlab.cloud/Drugmonizome_ML/) which has incorporated extensive databases on drugs and small molecules. I also streamlined the pipeline and modify it to compare different models easily. With this comprehensive pipeline, I managed to identify a list of drugs and relevant attributes that can be tested further in a much shorter time as compared to manually reading published papers for drug identification.
-  
-  <center><img src="images/drugmonizome-ml.jpg"/></center>
-  
 ---
 
 ### Supervised Regression models of Acetylcholinesterase Inhibitors
