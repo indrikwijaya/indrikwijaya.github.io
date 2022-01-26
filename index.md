@@ -14,6 +14,15 @@
 
 ---
 
+### Spatio-temporal Analysis of Translational Regulation in Brown Fat Differentiation
+[![View in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1EKaryRgS5QB5KmRDXz5-tGqUeb06sDlH?usp=sharing)
+
+Following up on my thesis above, I would like to discover any further temporal and spatial patterns of variation in the data. Specifically, I want to understand how genes are translationally regulated differently at the bulk level, cytosolic level and crude mitochondria level. Here, we use [MEFISTO](https://www.nature.com/articles/s41592-021-01343-9) (developed based on [MOFA](https://biofam.github.io/MOFA2/)) which is a factor analysis model that has been effectively and widely used to model multi-modal genomics datasets in an unsupervised manner. Preliminary analysis shows that the factor analysis is able to point out different spatio-temporal variations that are able to distinguish the regulation at the different cells comparment.
+
+  <center><img src="images/mefisto.png"/></center>
+
+---
+
 ### Autoencoder for Integration of Multi-omics Data
 [![View in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/15vrcuS_L48_YeixSK1Kao0g8qAXKU-wU?usp=sharing)
 
@@ -27,14 +36,6 @@
 
 ---
 
-### Spatio-temporal Analysis of Translational Regulation in Brown Fat Differentiation
-[![View in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1EKaryRgS5QB5KmRDXz5-tGqUeb06sDlH?usp=sharing)
-
-Following up on my thesis above, I would like to discover any further temporal and spatial patterns of variation in the data. Specifically, I want to understand how genes are translationally regulated differently at the bulk level, cytosolic level and crude mitochondria level. Here, we use [MEFISTO](https://www.nature.com/articles/s41592-021-01343-9) (developed based on [MOFA](https://biofam.github.io/MOFA2/)) which is a factor analysis model that has been effectively and widely used to model multi-modal genomics datasets in an unsupervised manner. Preliminary analysis shows that the factor analysis is able to point out different spatio-temporal variations that are able to distinguish the regulation at the different cells comparment.
-
-  <center><img src="images/mefisto.png"/></center>
-
----
 
 ## Computational Drug Discovery
 
